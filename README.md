@@ -77,6 +77,6 @@ const characters = [
 
 1. `npm init -y`
 2. `npm i typescript`
-3. `npx tsc --init`
+3. `npx tsc --init` (set **tsconfig.json** `noImplicitAny: false`)
 4. `npm i -D nodemon ts-node`
 5. Update **package.json** scripts: `"start": "nodemon src/main.ts"`
